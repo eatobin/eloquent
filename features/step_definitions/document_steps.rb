@@ -35,6 +35,6 @@ And /the second word of contents should be printed to the screen as: (\w+)/ do |
   @doc.words[1].should == n
 end
 
-And /the number ot words in content should be printed to the screen as: (\d+)/ do |n|
+And /the number of words in content should be printed to the screen as: (\d+)/ do |n|
   @doc.word_count.to_s.should == n
 end

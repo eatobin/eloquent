@@ -21,7 +21,7 @@ class Document
 
   # Describes a Document object
   def to_s
-    "TITLE: " + @title + " AUTHOR: " + @author + " FIRST 10 WORDS: " + @content.scan(/\w+/)[0..10].join(" ")
+    "TITLE: " + @title + " AUTHOR: " + @author + " FIRST 10 WORDS: " + @content.scan(/\w+/)[0...10].join(" ")
   end
 
   # Find an instance of Document by Title

@@ -12,4 +12,4 @@ Feature: Document
     And the title should be printed to the screen as: test
     And the contents should be printed to the screen as: A bunch of words
     And the second word of contents should be printed to the screen as: bunch
-    And the number ot words in content should be printed to the screen as: 4
+    And the number of words in content should be printed to the screen as: 4

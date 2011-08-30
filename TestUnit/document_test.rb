@@ -4,7 +4,7 @@ require_relative "../document"
 
 class DocumentTest < Test::Unit::TestCase
   def setup
-    @text = "A bunch of words"
+    @text = "A bunch of words are strung together here for your amusment."
     @doc = Document.new("test", "nobody", @text)
   end
 
@@ -21,14 +21,14 @@ class DocumentTest < Test::Unit::TestCase
   end
 
   def test_that_word_count_is_correct
-    assert_equal 4, @doc.word_count, "Word count is correct"
+    assert_equal 11, @doc.word_count, "Word count is correct"
   end
 
   def test_to_s
-    assert_equal "TITLE: test AUTHOR: nobody FIRST 10 WORDS: A bunch of words", @doc.to_s
+    assert_equal "TITLE: test AUTHOR: nobody FIRST 10 WORDS: A bunch of words are strung together here for your", @doc.to_s
   end
 
   def test_find_by_title
-    assert_equal "TITLE: test AUTHOR: nobody FIRST 10 WORDS: A bunch of words", Document.find_by_title("test").to_s
+    assert_equal "TITLE: test AUTHOR: nobody FIRST 10 WORDS: A bunch of words are strung together here for your", Document.find_by_title("test").to_s
   end
 end
