@@ -4,7 +4,7 @@ require_relative "../document"
 
 class DocumentTest < Test::Unit::TestCase
   def setup
-    @text = "A bunch of words are strung together here for your amusment."
+    @text = "A bunch of words are strung together here for your amusement."
     @doc = Document.new("test", "nobody", @text)
   end
 
