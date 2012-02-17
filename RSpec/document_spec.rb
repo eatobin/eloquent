@@ -1,7 +1,7 @@
 require "rspec"
 require_relative "../document"
 
-describe "My test behaviour for Document" do
+describe "My test behaviour for EAT Document" do
   before :each do
     @text = "A bunch of words"
     @doc = Document.new("test", "nobody", @text)
