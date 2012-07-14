@@ -13,7 +13,7 @@ class DocumentTest < Test::Unit::TestCase
   end
 
   def test_that_doc_can_return_words_in_array
-    assert @doc.words.include?("Ax"), "Is that an x?"
+    assert @doc.words.include?("A"), "Is that an x?"
     assert @doc.words.include?("bunch")
     assert @doc.words.include?("of")
     assert @doc.words.include?("words")
