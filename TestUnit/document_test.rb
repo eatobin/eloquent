@@ -1,5 +1,5 @@
 require "test/unit"
-require 'redgreen'
+require "redgreen"
 require_relative "../document"
 
 class DocumentTest < Test::Unit::TestCase
