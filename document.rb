@@ -16,7 +16,7 @@ class Document
   end
 
   def to_s
-    "TITLE: " + @title + " AUTHOR: " + @author + " FIRST 10 WORDS: " + @content.scan(/\w+/)[0...10].join(" ")
+    'TITLE: ' + @title + ' AUTHOR: ' + @author + ' FIRST 10 WORDS: ' + @content.scan(/\w+/)[0...10].join(' ')
   end
 
   def self.find_by_title(title)
