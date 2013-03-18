@@ -1,6 +1,6 @@
-require "cucumber"
-require "rspec"
-require_relative("../../document")
+require 'cucumber'
+require 'rspec'
+require_relative('../../document')
 
 
 Given /I am an author named: (\w+)/ do |n|
