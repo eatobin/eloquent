@@ -3,6 +3,7 @@
 #Here is a suggested fix that supports older and newer test-unit gems and test/unit bundled in Ruby >= 1.9.3.
 #https://github.com/cucumber/cucumber/issues/404
 #http://youtrack.jetbrains.com/issue/RUBY-13371
+#Place in step_definitions files (eg: document_steps.rb)
 
 require "test/unit"
 
