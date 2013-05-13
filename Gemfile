@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'cucumber'
-gem 'rspec'
+gem 'cucumber', '1.0.2'
+gem 'rspec', '2.6.0'
 gem 'test-unit'
 gem 'mynyml-redgreen'
