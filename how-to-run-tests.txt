@@ -1,0 +1,3 @@
+eric@linux-x2vq:eloquent$ ruby TestUnit/document_test.rb
+eric@linux-x2vq:eloquent$ bundle exec rspec
+eric@linux-x2vq:eloquent$ cucumber -s
